@@ -4,7 +4,8 @@ body {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-.header{
+
+.header {
     width: 992px;
     margin-left: auto;
     margin-right: auto;
@@ -14,22 +15,25 @@ body {
     align-items: center;
 
 }
-a{
+
+a {
     color: #0B132A;
     text-decoration: none;
     font-weight: 600;
 }
+
 #singup {
     border: 1px solid #F53855;
     margin-left: 30px;
-    color:#F53855 ;
+    color: #F53855;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 13px;
     padding-bottom: 13px;
     border-radius: 50px;
-    
+
 }
+
 #top-menu {
     display: flex;
     padding: 0;
@@ -38,31 +42,39 @@ a{
     column-gap: 40px;
     color: rgba(79, 86, 101, 1);
     font-weight: 400;
-    
+
 }
-main{
+
+main {
     width: 992px;
     margin-left: auto;
     margin-right: auto;
 }
-.hero{
+
+.hero {
     display: flex;
     align-items: center;
     margin-top: 93.38px;
 }
-.left,.right{
-   width: 50%;
+
+.left,
+.right {
+    width: 50%;
 }
-.left h1{
+
+.left h1 {
     font-weight: 500;
     font-size: 45px;
     color: #0B132A;
 }
-.left,.p{
+
+.left,
+.p {
     color: #4F5665;
-    
+
 }
-button{
+
+.hero-button {
     background-color: #F53838;
     border: none;
     color: #FFFFFF;
@@ -70,32 +82,37 @@ button{
     font-weight: 700;
     border-radius: 10px;
     margin-top: 50px;
-    box-shadow: 0 30px 50px rgba(245, 56, 56,0.5);
+    box-shadow: 0 30px 50px rgba(245, 56, 56, 0.5);
     cursor: pointer;
 
 }
-img{
+
+img {
     max-width: 100%;
 }
-.service-overview{
+
+.service-overview {
     display: flex;
     margin-top: 50px;
     border-radius: 8px;
-   box-shadow: 0 100px 100px rgb(231, 231, 231);
+    box-shadow: 0 100px 100px rgb(231, 231, 231);
 }
 
 
-.one,.two,.three{
+.one,
+.two,
+.three {
     flex-basis: 33.33%;
-  padding: 50px;
-  text-align: center;
-  display: flex;
-  column-gap: 20px;
-  
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    column-gap: 20px;
+
 }
 
 
-h4,p{
+h4,
+p {
     margin: 5px;
 }
 
@@ -103,38 +120,128 @@ h4,p{
     padding: 15px;
     background-color: #FFECEC;
     color: #F53838;
-    border-radius:70px;
-   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.feature{
+
+.feature {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 60px;
     margin-top: 28.32px;
-    
+
 }
 
 .feature div {
     flex-basis: 50%;
 }
+
 .feature ul {
     padding: 0;
     margin: 0;
     margin-top: 30px;
-   
+
     list-style: none;
 }
-.feature li{
+
+.feature li {
     margin-bottom: 10px;
     color: #4F5665;
 }
-.feature i{
+
+.feature i {
     color: #2FAB73;
     margin-right: 10px;
-   
+
 
 }
-.feature p{
-   color:  #4F5665;
+
+.feature p {
+    color: #4F5665;
+}
+
+.priceing{
+    margin-top: 80px;
+}
+.priceing h1{
+  text-align: center;
+  color: #0B132A;
+
+}
+.priceing p{
+ text-align: center;
+ margin-bottom: 50px;
+ color: #4F5665;
+}
+.priceing-boxes{
+    display: flex;
+    column-gap: 50px;
+   margin-top: 50px;
+}
+.box{
+    flex-basis: 33.33%;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border: 2px solid #dddddd;
+  flex-direction: column;
+}
+.box ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box ul li{
+    margin-bottom: 20px;
+     color: #4f5665;
+}
+.priceing-boxes h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul i{
+    color: #2FAB73;
+    margin-right: 20px;
+}
+.priceing-button{
+    color: #F53838;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 13px 62.94px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+.priceing-button2{
+    color: #F53838;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 62.94px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+
+.priceing-button3{
+    color: #FFFFFF;
+    background-color: #F53855;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 62.94px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0 30px 50px rgba(245, 56, 56, 0.5);
+    
 }
